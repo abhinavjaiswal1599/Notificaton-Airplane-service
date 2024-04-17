@@ -1,10 +1,10 @@
 const express = require('express');
-const v1Routes=require('./v1')
+const v1Routes = require('./v1');
 const router = express.Router();
 
-router.use('v1', v1Routes)
+// Correct usage: provide the route path before the middleware function
+router.use('v1', v1Routes);
 
-
-module.exports={
+module.exports = {
     router
-}
+};
