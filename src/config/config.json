@@ -1,9 +1,8 @@
-
 {
   "development": {
     "username": "root",
     "password": "Abhinav123",
-    "database": "database_development",
+    "database": "Notification_db",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
